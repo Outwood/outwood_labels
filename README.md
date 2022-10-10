@@ -1,8 +1,6 @@
 # OutwoodLabels
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/outwood_labels`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Generate stickers from CSV data.
 
 ## Installation
 
@@ -14,15 +12,23 @@ gem 'outwood_labels'
 
 And then execute:
 
-    $ bundle
+```shell
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install outwood_labels
+```shell
+$ gem install outwood_labels
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```shell
+$ outwood_labels infile.csv
+
+$ cat infile.csv | outwood_labels -o outfile.csv
+```
 
 ## Development
 
@@ -32,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/outwood_labels.
+Bug reports and pull requests are welcome on GitHub at https://github.com/outwood/outwood_labels.
 
 ## License
 
