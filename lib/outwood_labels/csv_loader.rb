@@ -18,7 +18,7 @@ module OutwoodLabels
     def call
       raise Error, "Missing template" unless @template || @has_headers
 
-      return CSV.new(@io, headers: @template.headers) unless @has_headers
+      return CSV.new(@io, headers: @template.columns) unless @has_headers
 
       data = CSV.new @io, headers: true, return_headers: true
       data.shift
