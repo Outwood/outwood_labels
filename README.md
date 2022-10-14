@@ -1,5 +1,7 @@
 # OutwoodLabels
 
+[![Gem](https://img.shields.io/gem/v/outwood_labels)](https://rubygems.org/gems/outwood_labels)
+
 Generate stickers from CSV data.
 
 ## Installation
